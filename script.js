@@ -4,16 +4,9 @@ Telegram.WebApp.ready(); // 确保 Web App API 已准备就绪
 
 // 按钮配置数据 (您可以根据需要修改)
 const buttonsData = [
-    { text: "Offer 1", url: "https://nanoushaks.net/4/8985364" },
-    { text: "Offer 2", url: "https://nanoushaks.net/4/8985363" },
-    { text: "Offer 3", url: "https://nanoushaks.net/4/8985362" },
-    { text: "Offer 4", url: "https://nanoushaks.net/4/8985314" },
-    { text: "Offer 5", url: "https://nanoushaks.net/4/8985312" },
-    { text: "Offer 6", url: "https://nanoushaks.net/4/8985313" },
-    { text: "Offer 7", url: "https://nanoushaks.net/4/8985310" },
-    { text: "Offer 8", url: "https://nanoushaks.net/4/8985307" },
-    { text: "Offer 9", url: "https://nanoushaks.net/4/8985375" },
-    { text: "Offer 10", url: "https://nanoushaks.net/4/8985309" },
+    { text: "Offer 1", url: "https://watchful-glass.com/bc3_Vn0.PT3LpzvRbkmbVkJ/ZQDC0O2/MTTYEpynO_DsQF0YL/TZYJxxMCTbIz4/NwDfUE" },
+    { text: "Offer 2", url: "https://watchful-glass.com/b/3eVE0.Pp3hppvBb/mqV/JZZODZ0/2iMFTYEAysOHDHIS2DLTTHYrxoMVTRIb4-MbjncC" },
+    { text: "Offer 3", url: "https://watchful-glass.com/b.3/Vp0gPu3NpXv/b/mfViJrZLDI0F2_MbTUERyeOnD/AdyVL/TVY-xHMLTxIi4gMsDFMk" },
 ];
 
 // 获取容器
