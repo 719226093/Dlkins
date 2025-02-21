@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Click on the discount link below</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <style>
+        /* 修改后的 CSS 样式 - 实现居中 */
+        body {
+            font-family: sans-serif;
+            display: flex;              /* 启用 Flexbox 布局 */
+            flex-direction: column;     /* 垂直排列内容 */
+            align-items: center;        /* 水平居中子元素 */
+            justify-content: flex-start; /* 垂直方向内容顶部对齐 (您可以根据需要调整) */
+            min-height: 200vh;         /* 确保 body 至少占据整个视口高度 */
+            margin: 0;                 /* 移除 body 默认 margin，避免影响居中 */
+        /* 添加背景图片 */
+        background-image: url('2211.jpg'); /* 替换为您的图片路径或 URL */
+        background-size: cover; /* 图片铺满整个 body，可能会裁剪 */
+        background-repeat: no-repeat; /* 防止图片重复 */
+        background-position: center center; /* 图片居中显示 */
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+        }
+        .button-link {
+            padding: 30px 60px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #333;
+            background-color: #f0f0f0;
+        }
+        .button-link:hover { background-color: #e0e0e0; }
+    </style>
+</head>
+<body>
+    <h1>Feel free to use our discount link</h1>
+    <div class="button-container" id="buttonContainer">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
